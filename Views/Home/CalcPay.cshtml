@@ -32,6 +32,6 @@
             <input value="@ViewBag.Salary.ToString("C2")" readonly class="col-4">
         </div>
         <button type="submit" class="offset-4">Calculate Gross Pay</button>
-        <button type="reset">Clear</button>
+        <button asp-controller="Home" asp-action="Index">Clear</button>
     </form>
 
